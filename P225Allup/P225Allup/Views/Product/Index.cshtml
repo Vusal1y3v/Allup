@@ -520,8 +520,8 @@
                             {
                                 <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a asp-controller="product" asp-action="index" asp-route-pageIndex="@i">@i</a></li>
                             }
-                                
-                            if (i == ViewBag.PageIndex+4)
+
+                            if (i == ViewBag.PageIndex+4 && ViewBag.PageIndex+4< ViewBag.ProductCount)
                             {
                                 <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a>...</a></li>
                             }

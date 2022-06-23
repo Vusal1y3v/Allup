@@ -513,23 +513,25 @@
                     }
                     else
                     {
-                    for (int i = 1; i <= ViewBag.ProductCount; i++)
-                    {
-                    if (i < 5)
-                    {
-                    <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a asp-controller="product" asp-action="index" asp-route-pageIndex="@i">@i</a></li>
-                    }
+                        for (int i = ViewBag.PageIndex; i <= ViewBag.ProductCount; i++)
+                        {
 
-                    if (i == 4)
-                    {
-                    <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a>...</a></li>
-                    }
+                            if (i < ViewBag.PageIndex+3)
+                            {
+                                <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a asp-controller="product" asp-action="index" asp-route-pageIndex="@i">@i</a></li>
+                            }
+                                
+                            if (i == ViewBag.PageIndex+4)
+                            {
+                                <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a>...</a></li>
+                            }
 
-                    if (i == ViewBag.ProductCount-1)
-                    {
-                    <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a asp-controller="product" asp-action="index" asp-route-pageIndex="@i">@i</a></li>
-                    }
-                    }
+                            if (i == ViewBag.ProductCount-1 && ViewBag.PageIndex<8)
+                            {
+                            <li id="@i" class="@(ViewBag.PageIndex == i ? "active":"") myli"><a asp-controller="product" asp-action="index" asp-route-pageIndex="@i">@i</a></li>
+                            }
+
+                        }
                     }
                     <li><a asp-controller="product" asp-action="index" asp-route-pageIndex="@(ViewBag.PageIndex+1)"><i class="fal fa-chevron-right"></i></a></li>
                 </ul>

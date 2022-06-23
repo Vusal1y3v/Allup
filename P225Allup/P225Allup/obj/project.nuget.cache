@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4pDdj4cwsU7QfPJtT5GIacMGwtTxhODAFelTULU7g0wUn+rSGu7GN34VKOwhCEEq/+6gxejDQH/neplmNn8ZVg==",
+  "dgSpecHash": "uoKzCIXBVTwC9nE/eWVyIg4pvEke00nxb7fODPl2JZhsgyDnaRwFEHWMjUshX02mXAB2koEJtCSRsPnf4vmMvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vusal\\Desktop\\P225_ASP_22-06-2022_Partial_Pagenation\\P225Allup\\P225Allup\\P225Allup.csproj",
+  "projectFilePath": "C:\\Users\\Vusal\\Desktop\\Allup Back-End\\P225Allup\\P225Allup\\P225Allup.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vusal\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Vusal\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vusal\\Desktop\\P225_ASP_22-06-2022_Partial_Pagenation\\P225Allup\\P225Allup\\P225Allup.csproj": {}
+    "C:\\Users\\Vusal\\Desktop\\Allup Back-End\\P225Allup\\P225Allup\\P225Allup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vusal\\Desktop\\P225_ASP_22-06-2022_Partial_Pagenation\\P225Allup\\P225Allup\\P225Allup.csproj": {
+    "C:\\Users\\Vusal\\Desktop\\Allup Back-End\\P225Allup\\P225Allup\\P225Allup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vusal\\Desktop\\P225_ASP_22-06-2022_Partial_Pagenation\\P225Allup\\P225Allup\\P225Allup.csproj",
+        "projectUniqueName": "C:\\Users\\Vusal\\Desktop\\Allup Back-End\\P225Allup\\P225Allup\\P225Allup.csproj",
         "projectName": "P225Allup",
-        "projectPath": "C:\\Users\\Vusal\\Desktop\\P225_ASP_22-06-2022_Partial_Pagenation\\P225Allup\\P225Allup\\P225Allup.csproj",
+        "projectPath": "C:\\Users\\Vusal\\Desktop\\Allup Back-End\\P225Allup\\P225Allup\\P225Allup.csproj",
         "packagesPath": "C:\\Users\\Vusal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vusal\\Desktop\\P225_ASP_22-06-2022_Partial_Pagenation\\P225Allup\\P225Allup\\obj\\",
+        "outputPath": "C:\\Users\\Vusal\\Desktop\\Allup Back-End\\P225Allup\\P225Allup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
